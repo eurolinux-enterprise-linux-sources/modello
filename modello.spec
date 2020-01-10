@@ -1,6 +1,6 @@
 Name:           modello
 Version:        1.7
-Release:        3%{?dist}
+Release:        4%{?dist}
 Epoch:          0
 Summary:        Modello Data Model toolkit
 # The majority of files are under MIT license, but some of them are
@@ -69,6 +69,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.7-4
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.7-3
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
